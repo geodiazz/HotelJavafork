@@ -1,6 +1,7 @@
 package application;
 
 import application.domain.BedRoom;
+import application.domain.Guest;
 import application.domain.Person;
 
 public class Main {
@@ -21,6 +22,10 @@ public class Main {
         System.out.println(person.getName());
         System.out.println(person.getEmail());
         */
+        Guest g1 = new Guest();
+        Guest g2 = new Guest();
+        System.out.println(g1.getId());
+        System.out.println(g2.getId());
 
         BedRoom bedRoom = new BedRoom();
 
